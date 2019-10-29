@@ -1,0 +1,67 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+```{r include=F}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+```{r}
+data("instacart")
+
+data =
+  instacart %>% 
+  mutate(order_dow = as.factor(order_dow),
+         order_dow = factor(order_dow, levels = 0:6, labels = c("Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")),
+         reordered = recode(reordered,
+                            "1" = "True",
+                            "2" = "False"))
+  
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Amount of items (>10k) bought from each aisles
+
+```{r}
+instacart %>% 
+  group_by(aisle) %>% 
+  summarise(number = n()) %>% 
+  filter(number > 10000) %>% 
+  mutate(aisle = reorder(aisle, number))%>% 
+  plot_ly(x = ~aisle, y = ~number, color = ~aisle, type = "bar")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Products bought from 20~24 o'clock
+
+```{r}
+instacart %>% 
+  sample_n(1000) %>% 
+  filter(order_hour_of_day %in% 20:24) %>% 
+  mutate(text_label = str_c(product_name, order_dow)) %>% 
+  plot_ly(
+    x = ~aisle, y = ~department, type = "scatter", mode = "markers",
+    color = ~order_hour_of_day, text = ~text_label, alpha = 0.5)
+```
+
+### Coffee Ice Cream bought in each day
+
+```{r}
+data %>% 
+  filter(product_name == "Coffee Ice Cream", order_hour_of_day > 0) %>% 
+  group_by(order_dow) %>% 
+  plot_ly(x = ~order_dow, y = ~order_hour_of_day, type = "box", mode = "markers", group = ~order_dow, color = ~order_dow)
+```
+
