@@ -10,4 +10,5 @@ Welcome to my Website! I am Yiyang LIU from Biostatistics department. Here I wil
 
 You can find my resume [here](./file/resume.pdf)
 
-You can find my plots [here](dashboard.html)
+You can find my plots [here](./dashboard.html)
+
