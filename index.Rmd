@@ -1,15 +1,33 @@
 ---
-title: "My website"
+title: "Yiyang Liu (Leah Liu)"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-Welcome to my Website! I am Yiyang LIU from Biostatistics department. 
 
-<img src = "./image/lyy.jpg" style = 'width:65%'>
+<center>
+## Welcome to my Website! 
 
-Here is my [resume](./file/resume.pdf) and some [plots](./dashboard.html) I made.
+
+
+
+**I am Yiyang LIU from Biostatistics department. **
+
+
+
+
+<img src = "./image/lyy.jpg" style = 'width:85%'>
+
+
+
+
+## My [resume](./file/resume.pdf) 
+
+
+
+
+## Some [plots](./dashboard.html) I made
 
 
