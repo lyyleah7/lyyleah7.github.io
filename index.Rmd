@@ -6,9 +6,10 @@ output:
     toc_float: true
 ---
 
-Welcome to my Website! I am Yiyang LIU from Biostatistics department. Here I will show you my resume and some plots I made.
+Welcome to my Website! I am Yiyang LIU from Biostatistics department. 
 
-You can find my resume [here](./file/resume.pdf)
+<img src = "./image/lyy.jpg" style = 'width:65%'>
 
-You can find my plots [here](./dashboard.html)
+Here is my [resume](./file/resume.pdf) and some [plots](./dashboard.html) I made.
+
 
