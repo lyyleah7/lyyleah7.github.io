@@ -19,7 +19,7 @@ output:
 
 
 
-I am a first-year MS biostatistics graduate student at [Columbia Mailman School of Public Health](https://www.mailman.columbia.edu/). The main courses includes Data Science, Biostatistics Method, SQL, Probability and etc. In June 2019, I graduated from [Fudan University](https://www.fudan.edu.cn/)，one of the top three universities in China, with Bachelor of Science degree in Pharmacy. In the summer of 2017, I was an summer scholar at University of Cambridge, learning Business Communication, Organization of Multinational Corporations and other leadership courses. 
+I am a first-year MS biostatistics graduate student at [Columbia Mailman School of Public Health](https://www.mailman.columbia.edu/). The main courses includes Data Science, Biostatistics Method, SQL, Probability and etc. In June 2019, I graduated from [Fudan University](https://www.fudan.edu.cn/)，one of the top three universities in China, with Bachelor of Science degree in Pharmacy. In the summer of 2017, I was an summer scholar at [University of Cambridge](https://www.cam.ac.uk/), learning Business Communication, Organization of Multinational Corporations and other leadership courses. 
 
 
 I am interested in healthcare industry and I am looking for an internship in pharmacy, life science and other related co-operations.
