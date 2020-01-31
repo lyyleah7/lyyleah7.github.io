@@ -5,6 +5,10 @@ navbar:
   right:
     - text: "About"
       href: ./about.html
+    - text: "CV"
+      href: ./file/resume20200131.pdf
+    - text: "Project"
+      href: https://alambyhe.github.io/suicide.github.io/
     - icon: fa-envelope fa-lg
       href: mailto:<yl4360@cumc.columbia.edu>
     - icon: fa-github fa-lg

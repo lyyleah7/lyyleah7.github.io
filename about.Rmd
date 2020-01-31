@@ -6,4 +6,4 @@ output:
     toc_float: true
 ---
 
-This website is a homework 4 of Data Science. In this homework I will use R to create a website which includes my resume and  a flexdashboard using `plotly` for that includes three distinct plot types. 
+This website gives you an introduction to Yiyang Liu, a student in Columbia University. Hope you like her:)
