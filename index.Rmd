@@ -58,6 +58,10 @@ In addition to academic life I was a Minister of Information Department since my
 <p style="text-align:center;"><font size="3" color="#BEBEBE"  style="font-style: italic">Graduation with my best friends</font></p>
 
 
+# Some plots that I made
+
+You can find plots I made [here](./dashboard.html).
+
 
 # Contact Information
 
